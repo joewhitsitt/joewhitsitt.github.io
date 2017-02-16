@@ -40,7 +40,7 @@ Anyway, below is a table illustrating the type of content on the site and the co
 | RAGBRAI Towns | Custom Taxonomy (location based)       | Part of Ragbrai data file.           |
 | Contact Form  | Webform Content Type                   | Formspree.io with validation.js form |
 | Image Gallery | None/Flickr                            | Dropbox Shared Folders               |
-
+{: .table}
 
 Being a [public repository](//github.com/pfalcons/pfalcons.github.io), you can see the result and all the commit messages that got me there. As of writing this, there are still a few issues/features I want to tackle, but the initial process of converting the site is done.
 
