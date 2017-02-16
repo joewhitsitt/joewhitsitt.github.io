@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<header>
+  <h2 class="text-uppercase">Blog</h2>
+</header>
+{{ content }}
+{% for post in paginator.posts %}
+  <article class="row">
+    <div class="col-sm-2 text-muted text-right text-lowercase post-meta"><small>{{ post.date | date: "%b %-d %Y" }}</small></div>
+    <h3 class="col-sm-10 text-lowercase post-title>"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+  </article>
+{% endfor %}
+
+{% if paginator.total_pages != 1 %}
+<nav aria-label="post navigation">
+<ul class="pager list-inline">
+  {% if paginator.next_page %}
+  <li class="previous list-inline-item">
+    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
+  </li>
+  {% else %}
+  <li class="previous list-inline-item">
+    <span class="disabled pagination-item older">Older</span>
+  </li>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+    <li class="next list-inline-item">
+      <a class="pagination-item next newer" href="{{ site.baseurl }}/">Newer</a>
+    </li>
+    {% else %}
+    <li class="next list-inline-item">
+      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
+    </li>
+    {% endif %}
+  {% else %}
+  <li class="next list-inline-item">
+    <span class="disabled pagination-item newer">Newer</span>
+  </li>
+  {% endif %}
+</ul>
+</nav>
+{% endif %}
