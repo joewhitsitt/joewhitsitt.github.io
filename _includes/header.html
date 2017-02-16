@@ -8,9 +8,11 @@
       {% assign pages_list = site.pages | sort:"weight"  %}
       {% for node in pages_list %}
         {% if node.title != null %}
+          {% if node.layout == "page" %}
           <li class="nav-item">
             <a class="nav-link text-uppercase{% if page.url == node.url %} active{% endif %}" href="{{ node.url | relative_url }}"> {{ node.title | escape }}</a>
           </li>
+          {% endif %}
         {% endif %}
       {% endfor %}
     </ul>
