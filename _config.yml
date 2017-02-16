@@ -19,7 +19,7 @@ repository: joewhitsitt/joewhitsitt.github.io
 description: >
   the personal website of joe whitsitt.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://joe.whitsitt.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: joewhitsitt
 github_username:  joewhitsitt
 
