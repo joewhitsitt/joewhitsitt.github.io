@@ -1,6 +1,6 @@
 ---
 title: hello world
-comments: false
+comments: true
 category: Website
 tags: jekyll
 ---
