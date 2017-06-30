@@ -16,7 +16,7 @@ permalink: /tubing/
 
     <div id="collapseZero" class="collapse show" role="tabpanel" aria-labelledby="headingZero">
       <div class="card-block">
-        We are schedule to float at 12:30 PM, which means the whole group needs to be ready to board the bus at that time. I recommend that you arrive at the camp by 10:30 AM so you can register, setup your tent, load the coolers, lather up, crack a beer and get in on the group picture.
+        We are schedule to float at 12:30 PM, which means the whole group needs to be ready to board the bus at that time. I recommend that you arrive at the camp by 10:30 AM so you can register, setup your tent, load the coolers, lather up, crack a beer and get in on the group picture. If you need to buy booze, food, etc. in Eldora, I recommend heading to HyVee/Casey's before checking-in. Once you are a few drinks in, no one should drive until morning.
       </div>
     </div>
   </div>
@@ -199,7 +199,7 @@ permalink: /tubing/
     </div>
     <div id="collapseThi" class="collapse" role="tabpanel" aria-labelledby="headingThirteen">
       <div class="card-block">
-        Not allowed at this place. So forget your plans to build a floating island of tubes. I recommend the foot/butt method as it works well in a pinch and is a great way to bond with each other (puns intended), but they have noodle floats that work okay.. You will see the foot/butt method makes perfect sense once we are in the water and the noodles fail.
+        Not allowed at this place. So forget your plans to build a floating island of tubes. I recommend the "toe in butt" method as it works well in a pinch and is a great way to bond with each other (puns intended), <strike>but they have noodle floats that work okay</strike>.. You will see the "toe in butt" method makes perfect sense once we are in the water and the noodles fail.
       </div>
     </div>
   </div>
