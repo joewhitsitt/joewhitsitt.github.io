@@ -3,7 +3,7 @@ title: Tubing
 weight: 4
 permalink: /tubing/
 ---
-<p>For those of you haven't been tubing before, or need a friendly reminder</p>
+<p>For those of you haven't been tubing before, or need a friendly reminder:</p>
 <div id="accordion" role="tablist" aria-multiselectable="true">
 {% for item in site.data.tubing %}
   <div class="card">
