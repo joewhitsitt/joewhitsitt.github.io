@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Google Maps Example</title>
+    <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.4.1.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="map-canvas" style="width:600px;height:400px"></div>
+    </div>
+
+    <script>
+    window.lat = 41.6587191;
+    window.lng = -91.5346237;
+    var map;
+    var mark;
+    var lineCoords = [];
+    var initialize = function() {
+      map  = new google.maps.Map(document.getElementById('map-canvas'), {
+        center:{lat:lat,lng:lng},
+        zoom:12,
+        styles:
+          [
+            {
+                "featureType": "administrative",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#444444"
+                    }
+                ]
+            },
+            {
+                "featureType": "landscape",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "color": "#f2f2f2"
+                    }
+                ]
+            },
+            {
+                "featureType": "poi",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "road",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "saturation": -100
+                    },
+                    {
+                        "lightness": 45
+                    }
+                ]
+            },
+            {
+                "featureType": "road.highway",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "visibility": "simplified"
+                    }
+                ]
+            },
+            {
+                "featureType": "road.arterial",
+                "elementType": "labels.icon",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "transit",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "water",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "color": "#46bcec"
+                    },
+                    {
+                        "visibility": "on"
+                    }
+                ]
+            }
+        ]
+      });
+      mark = new google.maps.Marker({position:{lat:lat, lng:lng}, map:map});
+      lineCoords.push(new google.maps.LatLng(window.lat, window.lng));
+    };
+    window.initialize = initialize;
+    var redraw = function(payload) {
+      lat = payload.message.lat;
+      lng = payload.message.lng;
+      map.setCenter({lat:lat, lng:lng, alt:0});
+      mark.setPosition({lat:lat, lng:lng, alt:0});
+      lineCoords.push(new google.maps.LatLng(lat, lng));
+      var lineCoordinatesPath = new google.maps.Polyline({
+        path: lineCoords,
+        geodesic: true,
+        strokeColor: '#2E10FF'
+      });
+      
+      lineCoordinatesPath.setMap(map);
+    };
+    var pnChannel = "map-channel";
+    var pubnub = new PubNub({
+      publishKey: 'demo',
+      subscribeKey: 'demo'
+    });
+    pubnub.subscribe({channels: [pnChannel]});
+    pubnub.addListener({message:redraw});
+    navigator.geolocation.getCurrentPosition(function(position) {
+      window.lat = position.coords.latitude;
+      window.lng = position.coords.longitude;
+    });
+    setInterval(function() {
+      pubnub.publish({channel:pnChannel, message:{lat:window.lat, lng:window.lng}});
+    }, 60000);
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAEG5GX4vYP06leaQsdTeng424HWvwydpg&callback=initialize"></script>
+  </body>
+</html>
