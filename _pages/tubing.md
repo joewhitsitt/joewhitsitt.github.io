@@ -16,7 +16,7 @@ permalink: /tubing/
     </div>
 
     <div id="collapse{{ item.key }}" class="collapse" role="tabpanel" aria-labelledby="heading{{ item.key }}">
-      <div class="card-block">
+      <div class="card-body">
         {{ item.content }}
       </div>
     </div>
