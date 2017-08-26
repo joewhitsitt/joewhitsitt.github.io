@@ -4,7 +4,7 @@
       <h1 class="display-4 text-lowercase site-title"><a href="{{ "/" | relative_url}}" title="joe whitsitt">{{ site.title | escape }}</span></a></h1>
     </hgroup>
   <nav class="container" role="navigation" aria-label="main navigation">
-    <ul class="nav">
+    <ul class="nav justify-content-center flex-sm-column">
       {% assign pages_list = site.pages | sort:"weight"  %}
       {% for node in pages_list %}
         {% if node.title != null %}
