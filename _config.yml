@@ -25,15 +25,13 @@ github_username:  joewhitsitt
 
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
 include: ['_pages']
-exclude:
-  - Gemfile
-  - Gemfile.lock
+
 sass:
   sass_dir: _sass
   style: compressed
