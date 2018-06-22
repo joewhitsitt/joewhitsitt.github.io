@@ -26,4 +26,4 @@ I also took at shortening the attribute names that I was keeping. These are repr
 
 White space is bad for file size. Though it helps with readability, unless I need to manually correct data, only parsers will be looking at the raw data. There is a cool tool for validating and formatting JSON: [https://jsonformatter.org](https://jsonformatter.org)
 
-In the end using these tips, one file was reduced from 3 MB to 500 K!
+In the end using these tips, one file was reduced from 3 MB to 500 KB!
