@@ -4,7 +4,7 @@ comments: true
 category: RAGBRAI
 tags: packing, gear, camping, biking
 ---
-Below is my pack list for RAGBRAI XLV (2017). Here are some aspects that have affected how I pack this year.
+Below is my pack list for RAGBRAI XLV (2017). Here are some aspects that have affected how I pack this year..
 
 - Supported by my team bus.
 - Riding/camping with my wife.
@@ -15,9 +15,9 @@ In addition, the weather is looking pretty decent for July in Iowa. For the port
 
 ![RAGBRAI XLV (2017) Weather Forecast](/assets/images/2017-ragbrai-weather-forecast.png "Weather forecast for Emmetsburg, IA, July 22-26th via weather.com"){:class="mx-auto d-block"}
 
-![RAGBRAI XLV (2017) Gear (Bus Tub)](/assets/images/IMG_0789.JPG "tent, sleeping bag, sleeping pad, cycling sandals, casual sandals, water bottle, collapsible waterbottle, queen linen sheet, no rinse (2) body wash, sunscreen, gloves, towel, bungies (2), team koozie, deodorant, allergy spray, toothbrush, mirror, headlamp, pain medicine, eye drops, ear plugs, cycling cap, clothes bag, jerseys (3), cycling shorts (2) helmet, button shirt, board shorts, wool tee, running shorts, misc bag, beard comb, toothpaste, spare batteries, chapstick, sunglasses, spork, gorp, food bag, clif bloks (3), clif bars (6), nuun (2), whey protein (3), mini peanut butter, wallet, charger, phone (not pictured), bagels (6) (not pictured), bug spray (not pictured)"){:class="mx-auto d-block"}
+![RAGBRAI XLV (2017) Gear (Bus Tub)](/assets/images/IMG_0789.JPG "tent, sleeping bag, sleeping pad, cycling sandals, casual sandals, water bottle, collapsible waterbottle, queen linen sheet, no rinse (2) body wash, sunscreen, gloves, towel, bungies (2), team koozie, deodorant, allergy spray, toothbrush, mirror, headlamp, pain medicine, eye drops, ear plugs, cycling cap, clothes bag, jerseys (3), cycling shorts (2) helmet, button shirt, board shorts, wool tee, running shorts, misc bag, beard comb, toothpaste, spare batteries, chapstick, sunglasses, spork, gorp, food bag, clif bloks (3), clif bars (6), nuun (2), whey protein (3), mini peanut butter, wallet, charger, phone (not pictured), bagels (6) (not pictured), bug spray (not pictured)"){:class="mx-auto d-block" width="800px" height="auto"}
 
-![RAGBRAI XLV (2017) Gear (Bike seat bag)](/assets/images/IMG_0787.JPG "mini sunscreen, spare tire, assorted zip-ties, mini 15mm wrench, bike multi tool, patch kit, penny, presta valve adapter, CO2 adapter, CO2 cartridge, hand sanitizer, mini rear bike light"){:class="mx-auto d-block"}
+![RAGBRAI XLV (2017) Gear (Bike seat bag)](/assets/images/IMG_0787.JPG "mini sunscreen, spare tire, assorted zip-ties, mini 15mm wrench, bike multi tool, patch kit, penny, presta valve adapter, CO2 adapter, CO2 cartridge, hand sanitizer, mini rear bike light"){:class="mx-auto d-block" width="800px" height="auto"}
 
 ## A few thoughts about what I did and didn’t pack:
 - Our 3-Person Nemo tent is starting to grow old. Lots of duct tape on the no-see-em mesh.
